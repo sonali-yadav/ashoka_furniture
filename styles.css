@@ -120,6 +120,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	z-index: 2;
 }
 .iframe_div {
 	margin-top: 20px;
