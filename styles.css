@@ -30,7 +30,7 @@
 }
 .header_div {
 	grid-template-columns: 40% 60%;
-	height: 80vh;
+	height: 85vh;
 }
 .header_img {
 	background: #fff url("images/header2.jpg") no-repeat;
@@ -41,14 +41,15 @@
 }
 .head_content {
 	width: calc(100% - 10vw);
-	margin: 10vh auto 0 auto;
+	margin: 20vh auto 0 auto;
 }
 #email {
 	width: 100%;
-	border: 3px solid rgba(0,0,0,0.5);
+	border: 2px solid rgba(0,0,0,0.2);
 	border-radius: 5px;
 	height: 40px;
 	padding-left: 5px;
+	background-color: transparent;
 }
 .cta_div {
 	font-size: 3.5vw;
@@ -65,11 +66,6 @@
 .about_img {
 	background: #fff url("images/about.jpg") no-repeat;
 	background-size: cover;
-}
-.about_div {
-	width: 90%;
-	font-family: 'Pacifico';
-	margin: auto;
 }
 #features, #work {
 	background-color: #fff;
@@ -97,7 +93,9 @@
 	margin: 5% auto 2% auto;
 }
 .shop_head {
-	font-family: 'Pacifico';
+	font-family: 'Oswald';
+	padding: 10px 0;
+	background-color: rgba(0,0,0,0.2);
 }
 .center {
 	text-align: center;

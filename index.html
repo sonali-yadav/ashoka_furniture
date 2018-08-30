@@ -16,13 +16,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header id="header">
-		<nav id="nav-bar">
+	<div id="header">
+		<nav id="nav-bar"  style="position:fixed; top:0; width:100%; background-color:#fff;">
 			<div class="navbar navbar-expand-lg navbar-light">
-  				<div class="navbar-brand">
-					<img src="images/logo.png" alt="AKF" id="header-img" class="logo_img d-inline-block align-center">
+  				<header class="navbar-brand">
+					<img src="https://drive.google.com/open?id=1gEDqLaGS33gfj26F6Z-Hh5VvIUfBcI7m" alt="AKF" id="header-img" class="logo_img d-inline-block align-center">
 					<span class="title_div navbar-brand caps">Ashoka Furnitures</span>
-				</div>
+				</header>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
   				</button>
@@ -39,15 +39,15 @@
 				<div class="head_content align-center">
 					<div class="caps cta_div">classic never goes out of style</div>
 					<div class="subcta_div">High performance furniture, delivered at your doorstep. Get your dream furniture designed, today.</div>
-					<form id="form" class="social_div">
-						<input type="email" placeholder="Enter Email" id="email">
-						<div><button type="submit" class="btn btn-danger caps" style="margin-top: 5px;">get started</button></div>
+					<form id="form" class="social_div" action="https://www.freecodecamp.com/email-submit">
+						<input type="email" placeholder="Enter Email" id="email" name="email">
+						<input type="submit" class="btn btn-danger caps" style="margin-top: 5px;" value="GET STARTED" id="submit">
 					</form>
 				</div>
 			</div>
 			<div class="header_img"></div>
 		</div>
-	</header>
+	</div>
 	<!--FEATURES-->
 	<section id="features" class="jumbotron jumbotron-fluid mg_bt_0">
 		<div class="grid feature_container">
@@ -90,7 +90,7 @@
 	</section>
 	<!--SHOP-->
 	<section id="shop" class="jumbotron jumbotron-fluid mg_bt_0">
-		<h1 class="shop_head center">Some of our Popular Products</h1>
+		<h1 class="caps shop_head center">Some of our Popular Products</h1>
 		<div class="flexi">
 			<div class="card shop_card center">
   				<img class="card-img-top card_img" src="images/prod1.jpg" alt="product1">
@@ -121,8 +121,8 @@
 	</section>
 	<!--WORK-->
 	<section id="work" class="jumbotron jumbotron-fluid mg_bt_0">
+		<h1 class="caps shop_head center">Here's How We Work</h1>
 		<div class="container">
-			<h1 class="shop_head center">Here's How We Work</h1>
 			<div class="center iframe_div">
 				<iframe width="100%" height="400" src="https://www.youtube.com/embed/ypdE5ryNyvM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
 			</div>
