@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo_img {
+	height: 12px;
+	width: 15px;
+}
+.title_div {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.in_bl { 
+	display: inline-block; 
+}
+.caps { 
+	text-transform: uppercase; 
+}
+.top_nav { 
+	font-size: 0.9rem; 
+	font-family: 'Roboto'; 
+}
+.nav_link { 
+	color: #212529; 
+}
+#nav {
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.grid { 
+	display: grid; 
+}
+.header_div {
+	grid-template-columns: 40% 60%;
+	height: 80vh;
+}
+.header_img {
+	background: #fff url("images/header2.jpg") no-repeat;
+	background-size: cover;
+}
+.lead_title_div {
+	background-color: #E7E4DF;
+}
+.head_content {
+	width: calc(100% - 10vw);
+	margin: 20vh auto 0 auto;
+}
+.cta_div {
+	font-size: 3.5vw;
+	font-family: 'Abril Fatface', cursive;
+}
+.subcta_div {
+	margin-top: 1vh;
+	font: 1vw 'Raleway';
+}
+.button {
+	margin-top: 2vh;
+	border-radius: 0 !important;
+}
+.about_img {
+	background: #fff url("images/about.jpg") no-repeat;
+}
+.about_div {
+	width: 70%;
+	margin: auto;
+}
+#features, #work {
+	background-color: #fff;
+}
+.mg_bt_0 { 
+	margin-bottom: 0 !important;
+}
+.feature_div {
+	margin-bottom: 5vw;
+}
+.feature_text {
+	font-family: 'Roboto';
+}
+.feature_img {
+	height: 100px;
+	width: 100px;
+}
+.feature_img_div {
+	justify-self: end;
+}
+.feature_container {
+	grid-template-columns: 20% 73%;
+	grid-column-gap: 7%;
+	width: 80%;
+	margin: 5% auto 2% auto;
+}
+.shop_head {
+	font-family: 'Pacifico';
+}
+.center {
+	text-align: center;
+}
+.shop_card {
+	width: 18rem;
+	margin: 20px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px grey;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+.card_img {
+	height: 15rem;
+	width: 18rem;
+}
+.shop_btn {
+	width: 8rem;
+	padding: 5px;
+}
+.iframe_div {
+	margin-top: 20px;
+}
